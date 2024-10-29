@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "dev-assessment/olly-form",
+	"version": "0.1.0",
+	"title": "Olly Form",
+	"category": "text",
+	"icon": "forms",
+	"description": "Olly Form is a Gutenberg block plugin that enables users to create customizable multi-step forms directly in WordPress. Ideal for lead generation, registrations, and surveys, it offers an intuitive, code-free interface with seamless transitions and field validation for an enhanced user experience.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "olly-form",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

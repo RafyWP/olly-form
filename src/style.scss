@@ -1,0 +1,81 @@
+.wp-block-dev-assessment-olly-form {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		p { margin: 0; }
+
+		input {
+			display: flex;
+			padding: 10px 60px 10px 12px;
+			align-items: flex-start;
+			width: 100%;
+			border-radius: 6px;
+			border: none;
+			outline: none;
+			background-color: #F2F2F2;
+		}
+
+		.text {
+			color: #32484D;
+			font-family: "Jost";
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 22px;
+			letter-spacing: 0.5px;
+		}
+
+		.msg { height: 22px; }
+
+		.error { color: red; }
+	}
+
+	.tks {
+		display: flex;
+		gap: 20px;
+
+		img {
+			width: 40px;
+			height: 40px;
+		}
+
+		> div {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+
+			* { margin: 0; }
+		}
+	}
+
+	.btns {
+		display: flex;
+		gap: 24px;
+
+		.btn {
+			font-family: "Montserrat";
+			padding: 16px 24px;
+			border-radius: 12px;
+			text-align: center;
+			font-weight: 700;
+			border: none;
+			cursor: pointer;
+
+			&.light-btn {
+				background: transparent;
+				padding: 16px 0;
+			}
+
+			&.green-btn {
+				background: #22B712;
+				color: #FFF;
+			}
+		}
+	}
+}
